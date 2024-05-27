@@ -1,0 +1,22 @@
+{
+	"module": {
+		"type": "commonjs"
+	},
+	"jsc": {
+		"parser": {
+			"syntax": "typescript",
+			"tsx": true,
+		},
+		"externalHelpers": true,
+		"parser": {
+			"syntax": "typescript",
+			"dynamicImport": true
+		},
+		"baseUrl": "."
+	},
+	"env": {
+		"targets": "Chrome >= 48"
+	}
+}
+
+
